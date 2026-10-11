@@ -1,0 +1,47 @@
+{
+  "training_accuracy": 0.83175,
+  "testing_accuracy": 0.822,
+  "classification_report": {
+    "Rejected": {
+      "precision": 0.8094117647058824,
+      "recall": 0.780045351473923,
+      "f1-score": 0.7944572748267898,
+      "support": 1764.0
+    },
+    "Approved": {
+      "precision": 0.831304347826087,
+      "recall": 0.855098389982111,
+      "f1-score": 0.8430335097001763,
+      "support": 2236.0
+    },
+    "accuracy": 0.822,
+    "macro avg": {
+      "precision": 0.8203580562659847,
+      "recall": 0.817571870728017,
+      "f1-score": 0.8187453922634831,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.8216497186700767,
+      "recall": 0.822,
+      "f1-score": 0.8216113901210128,
+      "support": 4000.0
+    }
+  },
+  "test_samples": 4000,
+  "features": [
+    "Age",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Employment_Years",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "Existing_EMI",
+    "Credit_Score",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Property_Area"
+  ],
+  "roc_auc": 0.8989233588486081
+}

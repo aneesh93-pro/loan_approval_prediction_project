@@ -1,0 +1,8 @@
+# Tested with Python 3.11 and scikit-learn 1.8.0
+pandas
+numpy
+scikit-learn==1.8.0
+matplotlib
+seaborn
+joblib
+jupyter
